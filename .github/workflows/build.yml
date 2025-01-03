@@ -1,0 +1,70 @@
+# Github action to build sphinx site and commit to gh-pages branch
+#
+#  Built site is pushed to 'gh-pages' branch
+#
+
+name: Sphinx Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 3 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        gcc: [10]
+
+    steps:
+      - name: Checkout page source
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install GFortran (Linux)
+        run: |
+          sudo update-alternatives \
+            --install /usr/bin/gcc gcc /usr/bin/gcc-${{ matrix.gcc }} 100 \
+            --slave /usr/bin/gfortran gfortran /usr/bin/gfortran-${{ matrix.gcc }} \
+            --slave /usr/bin/gcov gcov /usr/bin/gcov-${{ matrix.gcc }}
+
+      - name: Install sphinx
+        run: pip3 install --user -r requirements.txt
+
+      - name: delete _data folder
+        run: rm -Rf _data
+
+      - name: download _data
+        run: mkdir _data && cd _data && gh run download -n _data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build page
+        run: python3 build.py
+
+      - run: touch build/html/.nojekyll
+
+      - name: Create Bing authentification
+        run: |
+          echo > build/html/BingSiteAuth.xml \
+            "<?xml version=\"1.0\"?><users><user>${{ env.BING_TOKEN }}</user></users>"
+        env:
+          BING_TOKEN: ${{ secrets.BING_TOKEN }}
+
+      - name: Deploy documentation sphinx
+        uses: JamesIves/github-pages-deploy-action@v4.6.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: build/html
+          clean: false
+          git-config-email: 53436240+fortran-lang@users.noreply.github.com
+          git-config-name: Fortran
