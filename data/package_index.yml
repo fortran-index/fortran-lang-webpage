@@ -439,6 +439,14 @@
   categories: programming
   tags: errors logging fpm
 
+- name: PSyclone
+  github: stfc/PSyclone
+  description: Domain-specific compiler and code transformation system for Finite Difference/Volume/Element Earth-system models in Fortran
+  categories: programming
+  tags: formatter compiler transformer
+  version: 3.0
+  license: BSD-3-Clause
+
 # --- Data types ---
 
 - name: Fortran template library
