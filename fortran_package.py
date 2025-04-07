@@ -54,6 +54,7 @@ fortran_tags["data_types"] = fortran_tags.pop("data-types")
 conf["reference_books"] = conf["reference-books"]
 conf["reference_courses"] = conf["reference-courses"]
 conf["reference_links"] = conf["reference-links"]
+conf["reference_course_providers"] = conf["reference-course-providers"]
 
 with open(root / "_data" / "fortran_package.json", "w") as f:
     json.dump(fortran_tags, f)
