@@ -145,6 +145,21 @@ On the web
 
 :::{div} sd-fs-4 sd-font-weight-bold sd-text-primary
 
+Training providers
+:::
+
+:::{jinja} conf
+
+{% for course in reference_course_providers %}
+
+- [{{course.name}}]({{course.url}}) {{course.description}}
+
+{% endfor %}
+:::
+
+:::{div} sd-fs-4 sd-font-weight-bold sd-text-primary
+
+
 Online Training Materials
 :::
 
