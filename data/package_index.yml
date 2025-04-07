@@ -1548,6 +1548,13 @@
   tags: electronic-structure quantum-chemistry casscf
   license: Apache-2.0
 
+- name: GEOS-Chem
+  github: geoschem/geos-chem
+  description: Atmospheric chemistry model 
+  categories: scientific
+  tags: climate chemistry atmospheric-modelling atmospheric-chemistry 
+  license: MIT
+
 # --- Examples / demos / templates ---
 
 - name: Fortran 2018 examples
