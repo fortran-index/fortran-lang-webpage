@@ -326,9 +326,6 @@ reference-courses:
     description: >-
       course offered at the Leibniz-Rechenzentrum
 
-  - name: "PRACE Course: Fortran for Scientific Computing"
-    url: https://www.futurelearn.com/courses/fortran-for-scientific-computing
-
   - name: "PRACE Course: Advanced Fortran Topics"
     url: https://doku.lrz.de/display/PUBLIC/PRACE+Course%3A+Advanced+Fortran+Topics
 
@@ -336,11 +333,6 @@ reference-courses:
     url: https://www.youtube.com/playlist?list=PLRO4xf5MdhAv9CNTETor75rANZtBqPVgQ
     description: >-
       modern Fortran for developing an extensible library that can be used to solve conservation laws (PDEs) using spectral and spectral element methods
-
-  - name: "Kursmaterial für Wissenschaftliches Programmieren (Modern Fortran, 2017)"
-    url: https://www.bccms.uni-bremen.de/cms/people/b-aradi/wissen-progr/modern-fortran/2017
-    description: >-
-      from Bálint Aradi at Bremen Center for Computational Materials Science (German)
 
   - name: "Formations Fortran"
     url: http://www.idris.fr/formations/fortran/
@@ -370,16 +362,8 @@ reference-courses:
     description: >-
       by Philipp Engel
 
-  - name: "2018 Workshop on Fortran Modernization for Scientific Applications"
-    url: https://tcevents.chem.uzh.ch/event/3/
-
   - name: "Introduction to Programming using Fortran 95/2003/2008"
     url: http://www.egr.unlv.edu/~ed/fortran.html
-
-  - name: "Scientific Programing and Numerical Computation"
-    url: http://homepage.ntu.edu.tw/~wttsai/fortran/
-    description: >-
-      course by Wu-ting Tsai from National Taiwan University
 
   - name: "Introduction to Modern Fortran"
     url: https://www-uxsup.csx.cam.ac.uk/courses/moved.Fortran/
@@ -402,30 +386,10 @@ reference-courses:
     description: >-
       course by Anton Shterenlikht from the University of Bristol
 
-  - name: "Professional Programmer's Guide to Fortran77"
-    url: https://www.star.le.ac.uk/~cgp/prof77.html
-    description: >-
-      by Clive G. Page, University of Leicester, UK
-
-  - name: "Fortran90 for Fortran77 Programmers"
-    url: https://www.star.le.ac.uk/~cgp/f90course/f90.html
-    description: >-
-      by Clive G. Page
-
-  - name: "Introduction to Computer Programming Using Fortran 95"
-    url: https://www.archer.ac.uk/training/course-material/2014/08/F95_CCFE/Fortran95CourseNotes.pdf
-    description: >-
-      training materials from ARCHER, the UK National Supercomputing Service
-
   - name: "Combining Object-Oriented Techniques with Co-arrays in Fortran 2008"
     url: https://www.ecmwf.int/sites/default/files/elibrary/2008/15361-combining-object-oriented-techniques-co-arrays-fortran.pdf
     description: >-
       by Robert W. Numrich
-
-  - name: "Parallel programming in Fortran with Coarrays"
-    url: ftp://ftp.numerical.rl.ac.uk/pub/talks/jkr.reading.5XI08.pdf
-    description: >-
-      by John Reid
 
   - name: "Introduction to Co-Array Fortran"
     url: https://faculty.csbsju.edu/mheroux/fall2011_csci317/NumrichCafTalk.pdf
@@ -437,20 +401,10 @@ reference-courses:
     description: >-
       by Bo Einarsson and Yurij Shokin
 
-  - name: "Fortran Tutorial"
-    url: https://www.tat.physik.uni-tuebingen.de/~kley/lehre/ftn77/tutorial/
-    description: >-
-      older tutorial by Erik Boman, Stanford University
-
   - name: "Fortran 90 Tutorial"
     url: https://web.stanford.edu/class/me200c/tutorial_90/
     description: >-
       older tutorial by Paul Hargrove and Sarah Whitlock, Stanford University
-
-  - name: "Fortran 90 Tutorial"
-    url: https://pages.mtu.edu/%7eshene/COURSES/cs201/NOTES/fortran.html
-    description: >-
-      by C.-K. Shene, Michigan Technologial University
 
   - name: "Exploring Modern Fortran Basics"
     url: https://www.manning.com/books/exploring-modern-fortran-basics
