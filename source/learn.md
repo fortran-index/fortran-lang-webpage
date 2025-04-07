@@ -145,7 +145,7 @@ On the web
 
 :::{div} sd-fs-4 sd-font-weight-bold sd-text-primary
 
-Online Courses
+Online Training Materials
 :::
 
 :::{jinja} conf
