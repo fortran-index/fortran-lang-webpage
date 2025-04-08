@@ -160,7 +160,7 @@ Training providers
 :::{div} sd-fs-4 sd-font-weight-bold sd-text-primary
 
 
-Online Training Materials
+Online Course Materials
 :::
 
 :::{jinja} conf
@@ -174,6 +174,19 @@ Online Training Materials
 
 :::{div} sd-fs-4 sd-font-weight-bold sd-text-primary
 
+E-books
+:::
+
+:::{jinja} conf
+
+{% for course in reference_ebooks %}
+
+- [{{course.name}}]({{course.url}}) {{course.description}}
+
+{% endfor %}
+:::
+
+:::{div} sd-fs-4 sd-font-weight-bold sd-text-primary
 In print
 :::
 
