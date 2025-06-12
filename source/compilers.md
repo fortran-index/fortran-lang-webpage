@@ -187,7 +187,14 @@ range of supporting software. All standard and many vendor-specific legacy
 language features are supported, so that Fortran projects may be any combination
 of Fortran 77, Fortran 90 and Fortran 95.
 Some features of Fortran 2003 and 2008 have been [added](https://www.silverfrost.com/19/ftn95/support/ftn95_revision_history.aspx).
-Silverfrost Fortran runs on Windows / x86_64. There is a free personal edition.
+Silverfrost Fortran runs on Windows / x86_64.
+
+*Purchasable from the
+[Silverfrost website](https://www.silverfrost.com/P1001/shop/silverfrost_ftn95.aspx)
+(there is also a
+[free personal edition](https://www.silverfrost.com/32/ftn95/ftn95_personal_edition.aspx)
+under the
+[Silverfrost Fortran FTN95 License Agreement](https://www.silverfrost.com/44/ftn95/ftn95_licence_options.aspx)*.
 
 <h4> <b> NEC </b></h4>
 
