@@ -159,11 +159,13 @@ generation back-end. Available as part of the Arm Compiler for Linux package.
 <h4> <b> Oracle / Sun </b></h4>
 
 [Oracle C, C++, Fortran Compiler](https://www.oracle.com/application-development/technologies/developerstudio-features.html)
-is highly optimized for Oracle systems, on-premise and in the cloud
+is highly optimized for Oracle systems, on-premise and in the cloud.
 
-- Advanced code generation technology for the latest Oracle SPARC and x86 based systems
-- Support for the latest industry standards, including C++14, C++11, C11 and OpenMP 4.0 and extensive GCC compatibility features
-- Automatic code analysis during compilation and automatic stack overflow protection at application runtime
+- Advanced code generation technology for the latest Oracle SPARC and x86 based systems.
+- Support for the latest industry standards, including C++14, C++11, C11 and OpenMP 4.0 and extensive GCC compatibility features.
+- Automatic code analysis during compilation and automatic stack overflow protection at application runtime.
+
+*[TODO: Paid? License?]*
 
 <h4> <b> Silverfrost FTN95 </b></h4>
 
