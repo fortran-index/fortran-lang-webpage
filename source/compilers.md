@@ -192,6 +192,8 @@ Silverfrost Fortran runs on Windows / x86_64. There is a free personal edition.
 conforms to the Fortran-2003 standard (ISO/IEC 1539-1:2004) and supports many
 features from Fortran-2008 (ISO/IEC 1539-1:2010).
 
+*[TODO: Paid? License?]*
+
 <h4> <b> LCC </b></h4>
 
 [MCST C, C++, Fortran Compiler](http://mcst.ru/lcc) with full support of Fortran-95
