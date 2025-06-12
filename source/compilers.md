@@ -67,14 +67,19 @@ Python. Intel oneAPI HPC Toolkit provides
 - Intel Fortran Compiler Classic (`ifort`), a mature compiler
   with full Fortran 2018 support, for CPUs only.
 
-The current version of Intel oneAPI is available for free, and support can be purchased.
 Currently the ifx compiler supports Linux and Windows platforms for x86-64 architectures. ifort supports Linux, Windows, and macOS.
+
+*The current version of Intel oneAPI is
+[available for free](https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html),
+and support can be purchased.
 Community support is available for the free version at the [Intel Developer forum](https://community.intel.com/t5/Intel-Fortran-Compiler/bd-p/fortran-compiler).
 Optionally, you can purchase [Priority Support](https://www.intel.com/content/www/us/en/developer/get-help/priority-support.html) with additional benefits including access to previous versions of ifort and ifx.
+For licensing information related to Intel oneAPI, see the
+[Intel End-User License Agreement](https://www.intel.com/content/www/us/en/developer/articles/license/end-user-license-agreement.html)*.
 
 <h4> <b> NAG </b></h4>
 
-The latest [NAG Fortran Compiler](https://www.nag.com/nag-compiler)
+The latest [NAG Fortran Compiler](https://nag.com/nag-compiler)
 release (7.0) has extensive support for legacy and modern Fortran features including parallel programming with coarrays, as well as additional support for programming with OpenMP.
 
 The Compiler also provides significant support for Fortran 2018 (atomic
