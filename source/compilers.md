@@ -12,11 +12,17 @@ sd_hide_title: true
 <h4> <b> GNU Fortran Compiler</b></h4>
 
 [GNU Fortran Compiler (gfortran)](https://gcc.gnu.org/fortran/) is a mature
-free and open source compiler, part of the GNU Compiler Collection.
+compiler, part of the GNU Compiler Collection.
+
+*Free and open source under
+[GNU General Public License](https://gcc.gnu.org/onlinedocs/gcc-4.2.4/gfortran/Copying.html#Copying).*
 
 [OpenCoarrays](http://www.opencoarrays.org/) is a library and compiler wrapper
 around gfortran which enables the parallel programming features of Fortran 2018
 with gfortran.
+
+*Free and open source under
+[BSD-3 license](https://github.com/sourceryinstitute/OpenCoarrays/blob/main/LICENSE).*
 
 <h4> <b> LLVM Flang</b></h4>
 
@@ -26,16 +32,26 @@ added to LLVM.
 It is implemented in modern C++ and uses a Fortran-oriented MLIR dialect for lowering to LLVM IR.
 This project is under active development.
 
+*Free and open source under
+[Apache License v2.0 with LLVM Exceptions](https://github.com/llvm/llvm-project/blob/main/flang/LICENSE.TXT).*
+
 <h4> <b> Current Flang</b></h4>
 
-[Flang](https://github.com/flang-compiler/flang) is an open source compiler
-based on the NVIDIA/PGI commercial compiler.
+[Flang](https://github.com/flang-compiler/flang) is a compiler based on the
+NVIDIA/PGI commercial compiler.
+
+*Free and open source under
+[Apache License v2.0 with LLVM Exceptions](https://github.com/flang-compiler/flang/blob/master/LICENSE.txt).*
 
 <h4> <b> LFortran </b></h4>
 
 [LFortran](https://lfortran.org) is a modern, interactive, LLVM-based Fortran
 compiler.
 Also available online at [dev.lfortran.org](https://dev.lfortran.org/) using a statically served, WASM based LFortran Compiler for running code in web browsers.
+
+*Free and open source under
+[BSD-3 license](https://github.com/lfortran/lfortran/blob/main/LICENSE).*
+
 <p style="font-size:24px;color:#734f96;"><b>Commercial compilers</b></p>
 
 <h4> <b> Intel oneAPI</b></h4>
