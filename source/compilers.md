@@ -202,6 +202,12 @@ under the
 conforms to the Fortran-2003 standard (ISO/IEC 1539-1:2004) and supports many
 features from Fortran-2008 (ISO/IEC 1539-1:2010).
 
+*Freely available from the
+[community repository](https://sxauroratsubasa.sakura.ne.jp/repos/community/sdk/)
+(see [blog post](https://sx-aurora.github.io/posts/nec-compilers-no-license/)
+for more information) under the
+[SX-Aurora TSUBASA Free Software License](https://sxauroratsubasa.sakura.ne.jp/documents/support/pdfs/AuroraSW_Free_List.pdf).*
+
 <h4> <b> LCC </b></h4>
 
 [MCST C, C++, Fortran Compiler](http://mcst.ru/lcc) with full support of Fortran-95
