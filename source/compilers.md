@@ -184,6 +184,8 @@ of Fortran 77, Fortran 90 and Fortran 95.
 Some features of Fortran 2003 and 2008 have been [added](https://www.silverfrost.com/19/ftn95/support/ftn95_revision_history.aspx).
 Silverfrost Fortran runs on Windows / x86_64. There is a free personal edition.
 
+*[TODO: Paid? License?]*
+
 <h4> <b> NEC </b></h4>
 
 [The Fortran compiler](https://www.nec.com/en/global/solutions/hpc/sx/tools.html)
