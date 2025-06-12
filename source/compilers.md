@@ -154,11 +154,15 @@ The AOCC compilers are available free of charge and support Linux platforms with
 
 <h4> <b> ARM </b></h4>
 
-[Linux user-space Fortran compiler](https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-compiler-for-linux/arm-fortran-compiler).
+[Arm Fortran compiler for Linux](https://developer.arm.com/Tools%20and%20Software/Arm%20Fortran%20Compiler).
 Tailored for HPC and scientific codes, with support for popular Fortran and
 OpenMP standards and tuned for leading server-class Arm-based platforms. Built
 on the open source Flang front-end, and the LLVM‑based optimization and code
 generation back-end. Available as part of the Arm Compiler for Linux package.
+
+*Freely available on the
+[Arm website](https://developer.arm.com/documentation/102621/0100/Download?lang=en) under the
+[License agreement](https://developer.arm.com/documentation/102621/0100).*
 
 <h4> <b> Oracle / Sun </b></h4>
 
