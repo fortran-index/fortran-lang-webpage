@@ -160,6 +160,8 @@ OpenMP standards and tuned for leading server-class Arm-based platforms. Built
 on the open source Flang front-end, and the LLVM‑based optimization and code
 generation back-end. Available as part of the Arm Compiler for Linux package.
 
+*[TODO: Paid? License?]*
+
 <h4> <b> Oracle / Sun </b></h4>
 
 [Oracle C, C++, Fortran Compiler](https://www.oracle.com/application-development/technologies/developerstudio-features.html)
