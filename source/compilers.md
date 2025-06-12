@@ -199,8 +199,10 @@ features from Fortran-2008 (ISO/IEC 1539-1:2010).
 [MCST C, C++, Fortran Compiler](http://mcst.ru/lcc) with full support of Fortran-95
 (ISO/IEC 1539:1997) and partial support of Fortran-2003 (ISO/IEC 1539:2004),
 Fortran-2008 (ISO/IEC 1539:2010) and Fortran-2018 (ISO/IEC 1539:2018). Used for
-russian processor architectures Elbrus (e2k) and SPARC (MCST-R), also a cross-compiler
-for x86_64 architecture is available.
+Russian processor architectures Elbrus (e2k) and SPARC (MCST-R), also a
+cross-compiler for x86_64 architecture is available.
+
+*[TODO: Paid? License?]*
 
 <h3> Discontinued </h3>
 
