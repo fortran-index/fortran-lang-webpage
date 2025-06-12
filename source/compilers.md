@@ -148,6 +148,10 @@ applications.
 
 The AOCC compilers are available free of charge and support Linux platforms with x86_64 architectures.
 
+*Freely available on the
+[AMD website](https://www.amd.com/en/developer/aocc.html) under the
+[AMD AOCC End-User License Agreement](https://www.amd.com/en/developer/aocc/aocc-compiler/eula.html).*
+
 <h4> <b> ARM </b></h4>
 
 [Linux user-space Fortran compiler](https://developer.arm.com/tools-and-software/server-and-hpc/compile/arm-compiler-for-linux/arm-fortran-compiler).
