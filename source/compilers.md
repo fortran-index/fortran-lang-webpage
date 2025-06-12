@@ -109,6 +109,10 @@ highly multithreaded. It includes optimizing compilers that automatically
 exploit the scalar, vector and multithreading hardware capabilities of the Cray
 system. CCE supports Fortran, C and C++.
 
+*Purchasable from
+[HPC Support Center](https://support.hpe.com/connect/s/product) under HPE
+License Terms.*
+
 <h4> <b> IBM </b></h4>
 
 [IBM® XL Fortran](https://www.ibm.com/us-en/marketplace/xl-fortran-linux-compiler-power)
