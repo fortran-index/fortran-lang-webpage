@@ -93,9 +93,11 @@ generator, interface builder and a precision unifier.
 
 The [NVIDIA HPC SDK](https://developer.nvidia.com/hpc-sdk) C, C++, and Fortran compilers, former [PGI compilers](https://www.pgroup.com/products/index.htm), support GPU acceleration of HPC modeling and simulation applications with standard C++ and Fortran, OpenACC® directives, and CUDA®. GPU-accelerated math libraries maximize performance on common HPC algorithms, and optimized communications libraries enable standards-based multi-GPU and scalable systems programming.
 
-NVHPC compilers are available free of charge.
 Currently the compiler supports Linux platforms and x86_64, ppc64le and aarch64 architectures.
 Community support is available at the [HPC compiler forum](https://forums.developer.nvidia.com/c/accelerated-computing/hpc-compilers/nvc-nvc-and-nvfortran/313).
+
+*[Freely available](https://developer.nvidia.com/hpc-sdk-downloads) under
+[NVIDIA Software License Agreement](https://docs.nvidia.com/hpc-sdk/eula/index.html).*
 
 <h4> <b> HPE / Cray</b></h4>
 
