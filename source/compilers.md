@@ -123,8 +123,14 @@ your hardware utilization. IBM XL Fortran for Linux optimizes your
 infrastructure on IBM Power Systems™ in support of extensive numerical,
 scientific and high-performance computing.
 
-A community edition of the IBM XL compilers are available free of charge.
 The compilers support Linux and AIX platforms and ppc64le architectures.
+
+*Purchasable from the
+[IBM website](https://www.ibm.com/products/fortran-compiler-family) under the
+relevant
+[IBM License Agreement](https://www.ibm.com/about/software-licensing/us-en). A
+[community edition](https://www.ibm.com/products/open-xl-fortran-linux-compiler-power)
+of the IBM XL compilers are available free of charge.*
 
 <h4> <b> AMD </b></h4>
 
