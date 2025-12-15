@@ -47,8 +47,26 @@ Natively parallel
 Fortran is a natively parallel programming language with intuitive array-like syntax to communicate data between CPUs. You can run almost the same code on a single CPU, on a shared-memory multicore system, or on a distributed-memory HPC or cloud-based system. Coarrays, teams, events, and collective subroutines allow you to express different parallel programming patterns that best fit your problem at hand.
 
 :::{div} sd-fs-3 sd-font-weight-bold sd-text-primary
-FAQ
+Why Fortran?
 :::
+
+Despite being thought by many outside the community to be an archaic (or dead) language, Fortran is very much alive. In fact, _because_ it is the oldest programming language in active use, it underpins multi-decadal computational efforts in Earth sciences, material sciences, engineering, physics and chemistry. 
+> If you use electricity, fly in an aircraft, take medication, rely on weather forecasts or are defended by (the threat) of modern weapons, you depend on Fortran. 
+> 
+> -- <cite>[fortranfuture](https://fortranfuture.github.io)</cite>
+
+
+:::{div} sd-fs-5 sd-font-weight-bold
+What is Fortran used for?
+:::
+
+Fortran is mostly used in domains that adopted computation early--science and engineering. These include numerical weather and ocean prediction, computational fluid dynamics, applied math, statistics, and finance. Fortran is the dominant language of High Performance Computing and is used to [benchmark the fastest supercomputers in the world](https://top500.org/).
+
+:::{div} sd-fs-5 sd-font-weight-bold
+My boss gave me 2M lines of old Fortran, what should I do?
+:::
+
+Check out our [Quickstart guide](learn/os_setup/index) to help you get set up 
 
 :::{div} sd-fs-5 sd-font-weight-bold
 What is the status of Fortran?
@@ -64,11 +82,6 @@ Further, open source projects like the
 and the [Fortran Package Manager](https://fpm.fortran-lang.org) are
 under active development.
 
-:::{div} sd-fs-5 sd-font-weight-bold
-What is Fortran used for?
-:::
-
-Fortran is mostly used in domains that adopted computation early--science and engineering. These include numerical weather and ocean prediction, computational fluid dynamics, applied math, statistics, and finance. Fortran is the dominant language of High Performance Computing and is used to [benchmark the fastest supercomputers in the world](https://top500.org/).
 
 :::{div} sd-fs-5 sd-font-weight-bold
 Should I use Fortran for my new project?
