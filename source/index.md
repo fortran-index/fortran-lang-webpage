@@ -3,7 +3,6 @@ sd_hide_title: true
 ---
 
 # The Fortran Programming Language
-
 :::{div} sd-text-center sd-fs-3 sd-font-weight-bold sd-text-primary
 Fortran <br> High-performance parallel programming language
 :::
@@ -11,46 +10,6 @@ Fortran <br> High-performance parallel programming language
 :::{div} sd-text-center sd-fs-4
 {bdg-link-primary}`Get started <learn/>`
 :::
-
-:::{div} sd-fs-3 sd-font-weight-bold sd-text-primary
-Features
-:::
-
-:::{div} sd-fs-5 sd-font-weight-bold
-High performance
-:::
-
-Fortran has been designed from the ground up for computationally intensive applications in science and engineering. Mature and battle-tested compilers and libraries allow you to write code that runs close to the metal, fast.
-
-:::{div} sd-fs-5 sd-font-weight-bold
-Statically and strongly typed
-:::
-
-Fortran is statically and strongly typed, which allows the compiler to catch many programming errors early on for you. This also allows the compiler to generate efficient binary code.
-
-:::{div} sd-fs-5 sd-font-weight-bold
-Easy to learn and use
-:::
-
-Fortran is a relatively small language that is surprisingly easy to learn and use. Expressing most mathematical and arithmetic operations over large arrays is as simple as writing them as equations on a whiteboard.
-
-:::{div} sd-fs-5 sd-font-weight-bold
-Versatile
-:::
-
-Fortran allows you to write code in a style that best fits your problem: imperative, procedural, array-oriented, object-oriented, or functional.
-
-:::{div} sd-fs-5 sd-font-weight-bold
-Natively parallel
-:::
-
-Fortran is a natively parallel programming language with intuitive array-like syntax to communicate data between CPUs. You can run almost the same code on a single CPU, on a shared-memory multicore system, or on a distributed-memory HPC or cloud-based system. Coarrays, teams, events, and collective subroutines allow you to express different parallel programming patterns that best fit your problem at hand.
-
-:::{div} sd-fs-5 sd-font-weight-bold
-Interoperable
-:::
-
-Fortran's standardized C interoperability enables seamless integration into multi-language projects, enabling the optimization of performance-critical components.
 
 :::{div} sd-fs-3 sd-font-weight-bold sd-text-primary
 Why Fortran?
@@ -94,6 +53,48 @@ Should I use Fortran for my new project?
 :::
 
 If you're writing a program or a library to perform fast arithmetic computation over large numeric arrays, Fortran is the optimal tool for the job.
+
+
+:::{div} sd-fs-3 sd-font-weight-bold sd-text-primary
+Features
+:::
+
+:::{div} sd-fs-5 sd-font-weight-bold
+High performance
+:::
+
+Fortran has been designed from the ground up for computationally intensive applications in science and engineering. Mature and battle-tested compilers and libraries allow you to write code that runs close to the metal, fast.
+
+:::{div} sd-fs-5 sd-font-weight-bold
+Statically and strongly typed
+:::
+
+Fortran is statically and strongly typed, which allows the compiler to catch many programming errors early on for you. This also allows the compiler to generate efficient binary code.
+
+:::{div} sd-fs-5 sd-font-weight-bold
+Easy to learn and use
+:::
+
+Fortran is a relatively small language that is surprisingly easy to learn and use. Expressing most mathematical and arithmetic operations over large arrays is as simple as writing them as equations on a whiteboard.
+
+:::{div} sd-fs-5 sd-font-weight-bold
+Versatile
+:::
+
+Fortran allows you to write code in a style that best fits your problem: imperative, procedural, array-oriented, object-oriented, or functional.
+
+:::{div} sd-fs-5 sd-font-weight-bold
+Natively parallel
+:::
+
+Fortran is a natively parallel programming language with intuitive array-like syntax to communicate data between CPUs. You can run almost the same code on a single CPU, on a shared-memory multicore system, or on a distributed-memory HPC or cloud-based system. Coarrays, teams, events, and collective subroutines allow you to express different parallel programming patterns that best fit your problem at hand.
+
+:::{div} sd-fs-5 sd-font-weight-bold
+Interoperable
+:::
+
+Fortran's standardized C interoperability enables seamless integration into multi-language projects, enabling the optimization of performance-critical components.
+
 
 <div class="index_joinus_mobile">
 <h3><p style="color:#734f96;">Join us!</p> </h3>
