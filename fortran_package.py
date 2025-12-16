@@ -29,7 +29,7 @@ fortran_tags = {"fortran_tags": "tags"}
 for i in fortran_index:
     try:
         fortran_index_tags += i["tags"].split()
-    except:
+    except Exception:
         pass
 
     for j in categories:
