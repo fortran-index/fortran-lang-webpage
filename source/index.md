@@ -31,7 +31,7 @@ Fortran is mostly used in domains that adopted computation early--science and en
 My boss gave me 2M lines of old Fortran, what should I do?
 :::
 
-Check out our [Quickstart guide](learn/os_setup/index) to help you get set up 
+Check out our [Quickstart guide](learn/os_setup/index) to help you get set up.
 
 :::{div} sd-fs-5 sd-font-weight-bold
 What is the status of Fortran?
