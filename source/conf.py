@@ -213,3 +213,5 @@ post_auto_image = 1
 post_auto_excerpt = 2
 
 gettext_compact = "index"
+
+copybutton_exclude = '.linenos, .gp, .go'
