@@ -1,3 +1,7 @@
+<span style="color:grey; font-size:0.8em">_Authors: Stavros Meskos, Laurence Kedward, Arjen Markus, Ondřej Čertík, Milan Curcic_</span>
+
+<span style="color:grey; font-size:0.8em">_Last update: 16-Feb-2021_</span>
+
 # Setting up your OS
 
 **A beginner's tutorial on the software that needs to be installed to start with Fortran development**
@@ -12,13 +16,6 @@ If you have already set up your environment, you may skip this tutorial and move
 
 _The choice of text editors and IDEs has been controversial among the developers. What you choose is a matter of personal taste. Every solution comes with its own pros and cons. For that reason, in this guide, we will not push the reader towards one or another direction. We will, however, present a list of the most popular tools._
 
----
-
-<span style="color:grey; font-size:0.8em">_Authors: Stavros Meskos, Laurence Kedward, Arjen Markus, Ondřej Čertík, Milan Curcic_</span>
-
-<span style="color:grey; font-size:0.8em">_Last update: 16-Feb-2021_</span>
-
----
 
 ```{toctree}
 :hidden:
