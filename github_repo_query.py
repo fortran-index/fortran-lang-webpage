@@ -5,11 +5,13 @@ import json
 import urllib.request
 
 
-def get_stars_and_abandonware(organisation, repository):
+def get_stars_and_abandonware(organisation, repository, threshold=5):
     """Query the GitHub API to determine a repo's number of stars and last commit date.
 
     :arg organisation: the GitHub organisation
     :arg repository: the repository name
+    :kwarg threshold: number of years of inactivity after which a repo is considered
+        abandonware
     :returns: dictionary containing the number of stars and a bool to indicate if it can
         be classed as abandonware
     """
@@ -18,8 +20,8 @@ def get_stars_and_abandonware(organisation, repository):
     github_metadata = json.loads(page.read())
     stargazers = github_metadata["stargazers_count"]
     last_update = datetime.datetime.fromisoformat(github_metadata["updated_at"])
-    time_elapsed = datetime.datetime.now().date().year - last_update.date().year
-    abandonware = time_elapsed >= 5
+    time_elapsed_days = (datetime.datetime.now().date() - last_update.date()).days
+    abandonware = time_elapsed_days / 365.25 > threshold
     return {"stars": stargazers, "abandonware": abandonware}
 
 
